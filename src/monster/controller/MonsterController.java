@@ -8,19 +8,9 @@ public class MonsterController
 	
 	public MonsterController()
 	{
-		monster = new MarshmallowMonster("Fredrick",
-											3,
-											2,
-											false,
-											6,
-											1);
+		monster = new MarshmallowMonster("Fredrick", 3.0, 2, false, 6, 1);
 	}
-	/* name is fredrick
-	 * arm = 6
-	 * antenna = 3
-	 * eyes = 2
-	 * no bellybutton
-	 * nose = 0 */
+	
 
 	public void start()
 	{
