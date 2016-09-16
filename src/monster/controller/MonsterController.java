@@ -74,7 +74,7 @@ public class MonsterController
 				System.out.println("I likey");
 			}
 		}
-		System.out.println("Oooo " + getAntennaCount() + " Antennas!!!");
+		System.out.println("Oooo " + monster.getAntennaCount() + " Antennas!!!");
 		
 	}
 }
