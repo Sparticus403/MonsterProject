@@ -53,9 +53,28 @@ public class MonsterController
 			monster.setEyeCount(moreEyes);
 			if(monster.getEyeCount() > 2)
 			{
-				System.out.println("Many eyes!");
+				System.out.println("Many new eyes!");
 			}
 		}
+		else
+		{
+			System.out.println("You crood! I didn't want them to change anyways!");
+		}
 		System.out.println(monster.getEyeCount() + " new eyes!");
+		
+		System.out.println("Change antennas?");
+		String answerAnt = keyboardInput.nextLine();
+		if(answerAnt.equalsIgnoreCase("yes"))
+		{
+			System.out.println("How many?");
+			double moreAnt = keyboardInput.nextDouble();
+			monster.setAntennaCount(moreAnt);
+			if(monster.getAntennaCount() > 3.0)
+			{
+				System.out.println("I likey");
+			}
+		}
+		System.out.println("Oooo " + getAntennaCount() + " Antennas!!!");
+		
 	}
 }
