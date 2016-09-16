@@ -22,6 +22,7 @@ public class MonsterController
 		}
 		System.out.println("My monster has this many antennas: " + monster.getAntennaCount());
 		System.out.println("My monster has this many noses: " + monster.getNoseCount());
-		System.out.println("My monster has " + monster.)
+		System.out.println("My monster has " + monster.getArmCount() + " arms.");
+		System.out.println("");
 	}
 }
